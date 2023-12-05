@@ -1,17 +1,25 @@
 body {
-  margin: 0; /* Reset body margin */
-  padding: 0; /* Reset body padding */
+  margin: 0;
+  padding: 0;
 }
 h2,h1{
   text-align: center;
+  font-size: 30px;
+
 }
 table,td,tr{
   width: 1024px;
-  font-family: 'Inria Sans', sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   color: #000;
   font-size: 16px;
   text-align: center;
+  border-color: white;
+  border-radius: 20px;
 }
+table,th{
+  font-size: 20px;
+}
+
 
 tr:nth-child(even) {
   background-color: #D9D9D9;
